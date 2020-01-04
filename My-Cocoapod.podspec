@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.platform     = :ios, "11.0"
 
-  spec.source       = { :git => "https://github.com/ayenew/My-Extensions.git", :tag => "#{0.0.1" }
+  spec.source       = { :git => "https://github.com/ayenew/My-Extensions.git", :tag => spec.version }
 
-  spec.source_files  = "My-LocationExtention/**/*.{swift}"
+  spec.source_files  = "My-LocationExtention/My-LocationExtention/**/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
 
 end
